@@ -163,3 +163,62 @@ html {
   font-size: 24px;
   align-self: flex-end;
 }
+
+/* CALL TO ACTION SECTION */
+
+.cta_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43vh;
+}
+
+.cta_holder {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  height: 45%;
+  border-radius: 15px;
+}
+
+.cta_holder h2 {
+  font-size: 28px;
+  color: #f9faf8;
+}
+
+.cta_holder p {
+  font-size: 18px;
+  color: #f9faf8;
+  letter-spacing: 0.4px;
+}
+
+.cta_holder button {
+  background-color: #3882f6;
+  padding: 8px 42px;
+  border: 3px solid #f9faf8;
+  border-radius: 8px;
+}
+
+.cta_holder button a {
+  text-decoration: none;
+  color: #f9faf8;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* FOOTER SECTION */
+
+.footer_contaner {
+  background-color: #1f2937;
+  height: 11vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_contaner p {
+  color: #f9faf8;
+  font-size: 18px;
+}
